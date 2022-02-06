@@ -1,0 +1,5 @@
+.col-1 {
+    grid-column: full-start / full-end;
+    place-self: center;
+    text-align: center;
+}

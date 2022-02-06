@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+form,
+label,
+article,
+footer,
+header,
+nav,
+section,
+figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+html {
+  font-size: 50%;
+}
+
+
+@media only screen and (min-width: 1100px) {
+  html {
+    /* 10px/16px = 62,5 -> 1 rem -> 10px */
+    font-size: 62.5%;
+  }
+}
